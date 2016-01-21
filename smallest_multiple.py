@@ -1,6 +1,4 @@
-kjf
+def smallest_multiple():
 
-bmfsdkl
-fgbmfd
-dfgmgfdl
-sfblhgfd
+    print 'hello'
+    
