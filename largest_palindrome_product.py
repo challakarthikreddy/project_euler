@@ -18,6 +18,29 @@ Find the largest palindrome made from the product of two 3-digit numbers."""
 
 
 
+# def _chkpalindrome(str):
+#     for i in xrange(len(str)/2):
+#         if(int(str[i]) !=int(str[len(str)-1-i])):
+#             return False
+#     return True
+# 
+# def multiplyNumbers(i,j):
+#         if (isinstance(i, int) and isinstance(j, int)):
+#             if(_chkpalindrome(str(i * j))):
+#                 print i," * ",j," = ",i*j
+#                 return None
+#             if(j > 900):
+#                 multiplyNumbers(i,j-1)
+#             else:
+#                 if(i > 900):
+#                     j = 999
+#                     multiplyNumbers(i-1,j)
+#         return None
+# 
+# multiplyNumbers(999,999)
+
+
+
 def _chkpalindrome(str):
     for i in xrange(len(str)/2):
         if(int(str[i]) !=int(str[len(str)-1-i])):
